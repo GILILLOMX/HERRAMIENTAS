@@ -24,7 +24,7 @@ clear
 fi
 echo -e "\033[1;31m           Instalador Badvpn\n\033[0m"
 echo -e "Haciendo la download de Badvpn"
-wget -O /usr/bin/badvpn-udpgw https://www.dropbox.com/s/nxf5s1lffmbikwq/badvpn-udpgw -o /dev/null
+wget -O /usr/bin/badvpn-udpgw https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/HERRAMIENTAS/tree/master/BadUDP/badvpn-udpgw -o /dev/null
 chmod +x /usr/bin/badvpn-udpgw
 clear
 echo -e "\033[1;32m             Instalacion completa\033[0m" 
