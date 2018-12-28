@@ -13,7 +13,7 @@ Cómo usar Python inyector con OpenVPN en Android: https://raw.githubusercontent
 
 Comandos para instalar: 
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/HERRAMIENTAS/master/OpenVPN-Install/openvpn-install.sh; chmod +x openvpn-install.sh; ./openvpn-install.sh
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/HERRAMIENTAS/master/OpenVPN-Install/openvpn-install.sh; chmod +x openvpn-install.sh; ./openvpn-install.sh
 
 ==================================================================================
 

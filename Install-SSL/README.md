@@ -1,11 +1,11 @@
 ﻿# HERRAMIENTAS
 
-TCP-Tweaker-1.0
+Install-SSL
 
-TCP-Tweaker-1.0 una escritura experimental que cambia algunas configuraciones de red del sistema Linux para mejorar la velocidad y la estabilidad de la conexión proxy, VPN o túnel SSH. Si los cambios no mejoran la navegación y la estabilidad, basta con ejecutar la secuencia de comandos de nuevo para deshacerlas.
+Install-SSL El programa de instalación SSL es un script para conexion SSL en aplicativos Injector.
 Comandos para executar: 
 
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/HERRAMIENTAS/master/TCP-Tweaker-1.0/tcptweaker.sh; chmod +x tcptweaker.sh; ./tcptweaker.sh
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/HERRAMIENTAS/master/Install-SSL/sslinstall.sh; chmod +x sslinstall.sh; ./sslinstall.sh
 
 ==================================================================================
 
