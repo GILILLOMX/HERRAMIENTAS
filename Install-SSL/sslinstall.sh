@@ -100,10 +100,11 @@ clear
 echo -e "$barra"
 echo -e "\033[1;32m Servidor Configurado para usar SSL/TLS Stunnel4"
 echo -e "$barra"
-echo -e "\033[1;31m SI NO FUNCIONARA DEBE EJECUTAR EL COMANDO REBOOT"
+echo -e "\033[1;31m SI NO FUNCIONARA DEBE EJECUTAR EL COMANDO: \033[1;32m sudo reboot"
 echo -e "$barra"
 echo -e "\033[1;32m • \033[01;34mSU IP HOST:\033[0m $ip"
 echo -e "\033[1;32m • \033[01;34mPORT SSL:\033[0m $port"
 echo -e "$barra"
 service stunnel4 start > /dev/null 2>&1
 service stunnel4 restart > /dev/null 2>&1
+rm -rf $HOME/sslinstall.sh > /dev/null 2>&1
